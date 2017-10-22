@@ -47,6 +47,7 @@ logistic = LogisticRegression(C=1e5)
 logistic.fit(X_train,y_train)
 
 #predict
-
+print('predicted values:')
 logistic.predict(X_test)
+print('score:')
 logistic.score(X_test, y_test)
